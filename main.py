@@ -9,7 +9,7 @@ def hello():
     return render_template('index.html')
 
 
-@app.route("/page", methods=['POST'])
+@app.route("/page", methods=['POST', 'GET'])
 def submit():
     if request.method == "POST":
         name = request.form["movies"]
