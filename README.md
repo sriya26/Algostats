@@ -85,25 +85,24 @@ The dataset used for the main ML pipeline is the TMDb dataset. The MovieLens dat
 ### Search page  <a name="#search"></a>
 The first page of the application, you can type the name of the movie in the search bar and click the search icon.
 
-<img src="images/search-page.png" alt="Search landing page" width="700"/>
+![Search Page](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 ### Recommendations and Statistics page <a name="#recstats"></a>
 After searching, you will be redirected to the next page that will give you the top 5 recommendations made by the ML algorithms used.
 
-<img src="images/recs.png" alt="Movie Recommendations" width="700"/>
+![Recommendations](https://github.com/sriya26/Recommender_System/blob/main/images/recs.PNG)
 
 On scrolling down or by clicking the 'Algorithms' option in the nav bar, you can see the comparisions made between the different algorithms used in the recommender system in the form of graphs and other information.
 
-<img src="images/recal.png" alt="Recommendation Algorithms" width="700"/>
+![Recommender Algorithm](https://github.com/sriya26/Recommender_System/blob/main/images/recal.PNG)
 
 The features taken to compare the performance of the recommendation algorithms include RAM Usage, Training time and Prediction time while those for sorting algorithms include Time taken and Space complexity.
    
-<img src="images/sort.png" alt="Sorting Algorithms" width="700"/>
+![Sorting Algorithm](https://github.com/sriya26/Recommender_System/blob/main/images/sort.PNG)
 
 <ins>Note</ins>: Accuracy cannot be a parameter used in comparing the recommender algorithms due to the different nature of recommendations by each of the algorithm types.
 
-(add images)
 
 
 
