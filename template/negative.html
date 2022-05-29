@@ -1,0 +1,354 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "page-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src ="bootstrap.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Algostats</title>
+    <style>
+      body {
+  background-color: #210440;
+  
+}
+@media screen and (max-width: 767px) {
+  html {
+  
+    font-size: 13px;
+  }
+
+  h1 {
+      font-size: 1.2rem;
+  }
+  h2 {
+      font-size: 1.0rem;
+  }
+}
+.navbar-brand {
+    letter-spacing: 0px;
+    color: #210440;
+    font-family:'Epilogue', sans-serif;
+  }
+  
+.navbar-brand:hover {
+      color: #e5958e;
+  }
+
+  
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+    color: #210440;
+  }
+  
+.navbar-scrolled {
+    background-color: #f0b095;
+  }
+.navbar{
+      font-family: 'Red Hat Display', sans-serif;
+      background-color: #e5958e;
+  }
+
+.movie{
+    height: 40vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-right: 15vh;
+    margin-left: 15vh;
+    display: block;
+    background-color: #ffede7;
+    border-radius: 20px;
+    padding: 1em;
+    width: auto;
+    box-shadow: 2px 2px 5px 2px #E2E2E2;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+  color:black;
+}
+
+.col-1 {
+  text-align: center;
+  font-family:'Epilogue', sans-serif;
+  font-weight: bold;
+  color:black;
+
+}
+
+.head{
+  font-family: 'Red Hat Display', sans-serif;
+  color:#fff;
+  font-size: 20px;
+  padding-left: 30px;
+  margin-bottom: 30vh;
+}
+.container-pic{
+  max-width: 1200px;
+  margin:auto;
+  background:#210440;
+  overflow:auto;
+  display: flex;
+
+}
+.container-pic2{
+  max-width: 1200px;
+  margin:auto;
+  background:#210440;
+  overflow:auto;
+  display: flex;
+}
+
+.gallery{
+  margin:5px;
+  border:1px;
+  float:left;
+  width:350px;
+  flex: 33.33%;
+  padding: 5px;
+}
+.gallery img{
+  width:100%;
+  height:auto;
+
+}
+.gal{
+  margin:5px;
+  border:1px;
+  float:left;
+  width:350px;
+  flex: 33.33%;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  color:#fff;
+}
+.gal img{
+  width:100%;
+  height:auto;
+
+}
+ul.main{
+  color: #fff;
+  list-style-type:disc;
+  font-family: 'Red Hat Display', sans-serif;
+}
+ul.big{
+  list-style-type: circle;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+ul.small{
+  list-style-type: circle;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+.content{
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+} 
+
+.desc{
+  padding:15px;
+  text-align:center;
+  color:#ffff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+} 
+
+h2{
+  color:#fff;
+}
+
+.rec{
+  color:#fff;
+  width:100%;
+  font-family:'Epilogue', sans-serif ;
+  font-size: medium;
+  text-align: left;
+  padding-left:30px;
+  padding-bottom: 5px;
+
+}
+.cat{
+  color:#fff;
+  width:100%;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: left;
+  padding-left:30px;
+
+}
+.heads{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.heads div{
+  align-items: center;
+  margin-left:65px;
+  width:100%;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sorttext{
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fff;
+  padding-left: 40px;
+}
+    </style>
+</head>
+<body style="background-color:#210440">
+    <header>
+   <!--navbar--> 
+   <nav class="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style="background-color: #ffede7;">
+    <div class="container">
+      <a class="navbar-brand" href="bootstrap.html"><strong>Algostats</strong></a>
+      <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="d-flex justify-content-start align-items-center">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item active">
+            <a class="nav-link px-3" href="#rec">Recommendations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#recal">Recommendation Algorithms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#sort">Sorting</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<br>
+  <!--recommendations-->
+  <section class="rec" id="rec">
+    <div class="movie">
+      <h2 style="color:black"><strong>Recommendation</strong></h2><br>
+            <p style="font-weight:bold;font-size:25px;">Sorry, no recommendation found :(<br>Either the input is
+            misspelled or is not in our dataset.</p>
+      </div>
+          <br>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <div class="head"><b><u>Recommender Algorithm used </u></b>: Content based- Bag of Words<br>
+                        <b><u>Sorting Algorithm used</u></b>: Insertion Sort</div>
+                      </section>
+        </header>
+      </header>
+<!--rec algos-->
+    <main>
+      <section class="recal" id="recal">
+      <div class="rec">
+        <h1>Recommendation Algorithms</h1>
+        <hr>
+      </div>
+      <div class="heads">
+      <div class="ram">RAM USAGE</div>
+      <div class="pred">PREDICTION TIME</div>
+      <div class="train">TRAINING TIME</div>
+    </div>
+        <!--pics-->
+        <div class="container-pic">
+          <div class="gallery">
+            <img src="/static/ram-graph.png">
+          </div>
+          <div class="gallery">
+            <img src="/static/pred-big.png" >
+            <div class="desc">Big Dataset</div>
+          </div>
+          <div class="gallery">
+            <img src="/static/train-big.png" >
+          <div class="desc">Big Dataset</div>
+          </div>
+        </div>
+        <!--pics 2 with lis-->
+        <div class="container-pic2">
+          <div class="gal">
+            <ul class="main">
+              <li>Big Dataset : </li>
+              <ul class="big">
+              <li>27,000,000 ratings</li>
+              <li>1,100,000 tag applications</li>
+              <li>58,000 movies</li>
+              <li>280,000 users </li>
+              <li>45,000 metadata entries</li>
+            </ul>
+            <li>Small Dataset : </li>
+              <ul class="small">
+              <li>100,000 ratings</li>
+              <li>3,600 tag applications</li>
+              <li>9,000 movies</li>
+              <li>600 users </li>
+              <li>410,000 metadata entries</li>
+            </ul>
+          </ul>
+          <p><b><u>Why content-based</u></b>: Most training time but <em>least prediction time</em>.<br>
+            Better RAM Usage than Hybrid recommender which is best of content and collaborative filtering. </p>
+          </div>
+          <div class="gal">
+            <img src="/static/pred-small.png">
+            <div class="desc">Small Dataset</div>
+          </div>
+          <div class="gal">
+            <img src="/static/train-small.png" >
+            <div class="desc">Small Dataset</div>
+          </div>
+        </div>
+      </section>
+    </main>
+<!--SORTING-->
+<main>
+  <section class="sort" id="sort">
+  <div class="rec">
+    <h1>Sorting Algorithms</h1>
+    <hr>
+  </div>
+  <div class="heads">
+    <div class="ram">SPACE COMPLEXITY</div>
+    <div class="pred2">TIME TAKEN</div>
+  </div>
+<!--pics-->
+<div class="container-pic">
+  <div class="gallery">
+    <img src="/static/space.png">
+  </div>
+  <div class="gallery">
+    <img src="/static/times-big.png" >
+    <div class="desc">Big Dataset</div>
+  </div>
+  <div class="gallery">
+    <img src="/static/times-small.png" >
+  <div class="desc">Small Dataset</div>
+  </div>
+</div>
+<div class="sorttext"><b><u>Why Insertion Sort</u></b>: Heap, Merge and Insertion sort are 
+  the most time efficient algorithms for 
+  both small and big dataset.<br>
+  Merge Sort has a space 
+  complexity of o(n), so less
+   favoured.<br>
+  Insertion Sort has a <em><b>space complexity of O(1) and takes the least time out of all.</b></em></div>
+</section>
+</main>
+
+<div style="margin-top:50px"></div>
+</body>
+</html>
