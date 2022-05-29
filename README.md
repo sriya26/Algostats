@@ -85,7 +85,7 @@ The dataset used for the main ML pipeline is the TMDb dataset. The MovieLens dat
 ### Search page  <a name="#search"></a>
 The first page of the application, you can type the name of the movie in the search bar and click the search icon.
 
-![Search Page](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Search Page]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/sriya26/Recommender_System/blob/main/images/search-page.PNG))
 
 
 ### Recommendations and Statistics page <a name="#recstats"></a>
