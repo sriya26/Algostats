@@ -26,7 +26,7 @@
 
 * Built during the Microsoft Intern Engage 2022 program as a part of the Algorithms problem statement.
 
-### Salient Features <a name="#features"></a>
+###  <a name="#features">Salient Features</a>
 * Takes input movie from the user and displays the top 5 recommendations as given by the Machine Learning/Deep Learning algorithm.
 
 * Displays comparisions between various comparative parameters for the algorithms and finally suggests the ideal algorithms in each case.
