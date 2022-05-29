@@ -2,7 +2,7 @@
    <p align="center">
  <a target="_blank" href="https://algostats.herokuapp.com/">Link to the App</a>
     ·
- <a target="_blank" href="https://drive.google.com/file/d/1b-HsGHkiAaw5V61kAuNFxZiaTy9zgqpd/view">Video Demo</a>
+ <a target="_blank" href="https://drive.google.com/file/d/1RnVXJGTjozmpTLeID60EYvxC_zm4glEw/view?usp=sharing">Video Demo</a>
 </p>
 
 ## Table of contents
