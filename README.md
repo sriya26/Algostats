@@ -21,7 +21,7 @@
 
 ## About the project <a name="introduction"></a>
 ***
-* A website based application created to demonstrate the roles played by variou types of algrithm in a movie recommender system used by web streaming applications like Netflix.
+* A website based application hosted on Heroku created to demonstrate the roles played by variou types of algrithm in a movie recommender system used by web streaming applications like Netflix.
 * The algorithms used and compared include:
 
     * Machine Learning and Deep Learning models for the main recommender system.
@@ -38,6 +38,7 @@
 1. _**Front-End**_ : HTML,CSS,Bootstrap
 2. _**Back-End**_ : Flask
 3. _**ML Model**_ : Natural Language Toolkit, Scikit-Learn, FuzzyWuzzy and Surprise python libraries
+4. _**Web Hosting Service**_ : Heroku
 
 
 ## Algorithms used <a name="algorithms"></a>
