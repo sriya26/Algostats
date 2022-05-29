@@ -8,7 +8,7 @@
 ## Table of contents
 1. [About the project](#introduction)
     * [Salient Features](#features)
-    * [Comaptible Platforms](#platforms)
+    * [Compatible Platforms](#platforms)
     * [Technology Stack](#stack)
 2. [Algorithms used](#algorithms)
     * [Recommender Algorithms](#recal)
@@ -34,6 +34,9 @@
 
 * Displays comparisions between various comparative parameters for the algorithms and finally suggests the ideal algorithms in each case.
 
+###  <a name="#platforms">Compatible Platforms</a>
+   
+Responsive platform compatible on Desktop, Tablets and Mobile phones. (Best experience on Desktop)
 ### Technology Stack <a name="#stack"></a>
 1. _**Front-End**_ : HTML,CSS,Bootstrap
 2. _**Back-End**_ : Flask
