@@ -9,9 +9,7 @@
     * [Recommender Algorithms](#recal)
     * [Sorting Algorithms](#sortal)
 3. [Dataset used](#dataset)
-4. [Guide to Getting Started](#start)
-    * [Prerequisites](#prereq)
-    * [Installation](#install)
+4. [Installation Guide](#start)
 5. [Navigating through the App](#nav)
     * [Search page](#search)
     * [Recommendations and Statistics page](#recstats)
@@ -74,11 +72,18 @@ The TMDb dataset contains information about 10,000 movies collected from The Mov
 
 The dataset used for the main ML pipeline is the TMDb dataset. The MovieLens dataset has been used for training different kinds of recommender algorithms and their analysis.
 
-## Guide to Getting Started  <a name="start"></a>
+## Installation Guide <a name="start"></a>
 ***
-### Prerequisites  <a name="#recal"></a>
+```
+# Clone repository
+$ git clone https://github.com/sriya26/Recommender_System.git
 
-### Installation  <a name="#install"></a>
+# Make your way into the Project Folder
+$ cd Recommender_System
+
+# Install dependencies from the root of the project folder
+$ pip install -r requirements.txt
+```
 
 ## Navigating through the App <a name="nav"></a>
 ***
