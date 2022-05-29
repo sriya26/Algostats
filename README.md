@@ -65,7 +65,7 @@ The following sorting algorithms were used in each of the recommender system to 
 
 ## Dataset used <a name="dataset"></a>
 ***
-The dataset used for these algorithms is the **MovieLens** dataset made publicly available by GroupData, a research lab at the University of Minnesota for research purposes. The dataset consists of data collected over a long time from the various ratings and data available on the MovieLens website.
+The dataset used for these algorithms is the **MovieLens** dataset made publicly available by GroupData, a research lab at the University of Minnesota for research purposes. The dataset consists of data collected over a long time from the various ratings and data available on the MovieLens website. All movie entries in the datasets are in <b>English</b> language
 
 I used the MovieLens Latest Datasets abd the TMDb 5000 movies dataset for the models, which consists of several datasets including that of ratings, credits, tags, movies, links and movie metadata that consists of all the information regarding a movie including the language,year of release, tagline, budget, revenue etc.
 
@@ -123,6 +123,10 @@ On scrolling down or by clicking the 'Algorithms' option in the nav bar, you can
 The features taken to compare the performance of the recommendation algorithms include RAM Usage, Training time and Prediction time while those for sorting algorithms include Time taken and Space complexity.
    
 ![Sorting Algorithm](https://github.com/sriya26/Recommender_System/blob/main/images/sort.PNG)
+   
+If in case there is an error in the input, i.e, the name is misspelled or the movie is not available in the dataset, a error message will be displayed but the user can still see the algorithm analysis.
+   
+![Error Message](https://github.com/sriya26/Recommender_System/blob/main/images/neg.PNG))
 
 <ins>Note</ins>: Accuracy cannot be a parameter used in comparing the recommender algorithms due to the different nature of recommendations by each of the algorithm types.
 
