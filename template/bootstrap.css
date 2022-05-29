@@ -1,0 +1,21 @@
+body{
+
+    background: #d1d5db;
+    background-image: url('footer.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom; 
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left:39.5%;
+    transform: translte(-50%,50%);
+    font-family: 'Epilogue', sans-serif;
+    }
+
+.title h1{
+    color:#fff;
+    font: size 100px;
+}
