@@ -15,7 +15,7 @@ def submit():
     if request.method == "POST":
         name = request.form["movies"]
         name = name.title()
-        predict = ml.recommend(name)
+        predict = try_ml.get_recommendations(name)
         ans = []
         for i in range(len(predict)):
             ans.append(predict.iloc[i][0])
