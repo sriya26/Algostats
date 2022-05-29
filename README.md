@@ -1,4 +1,9 @@
 <h1 align="center">Algostats
+   <p align="center">
+ <a target="_blank" href="https://algostats.herokuapp.com/">Link to the App</a>
+    ·
+ <a target="_blank" href="https://drive.google.com/file/d/1b-HsGHkiAaw5V61kAuNFxZiaTy9zgqpd/view">Video Demo</a>
+</p>
 
 ## Table of contents
 1. [About the project](#introduction)
@@ -81,8 +86,21 @@ $ git clone https://github.com/sriya26/Recommender_System.git
 # Make your way into the Project Folder
 $ cd Recommender_System
 
+# Install virtualvenv if you don't already have virtualenv installed
+$pip install virtualenv 
+  
+# Create your new environment
+$virtualenv venv
+   
+# To enter the virtual environment   
+$source venv/bin/activate
+   
 # Install dependencies from the root of the project folder
-$ pip install -r requirements.txt
+$pip install -r requirements.txt
+   
+#Run flask file
+$flask -a application run
+   
 ```
 
 ## Navigating through the App <a name="nav"></a>
