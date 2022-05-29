@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from sorting import ml
+from sorting import try_ml
 import pandas
 
 app = Flask(__name__, template_folder='template')
@@ -15,11 +15,14 @@ def submit():
     if request.method == "POST":
         name = request.form["movies"]
         name = name.title()
-        predict = try_ml.get_recommendations(name)
-        ans = []
-        for i in range(len(predict)):
-            ans.append(predict.iloc[i][0])
-    return render_template("page.html", movie_names=ans, search_name=name)
+        if name not in try_ml.all_titles:
+            return(render_template('negative.html', name=name))
+        else:
+            predict = try_ml.get_recommendations(name)
+            ans = []
+            for i in range(len(predict)):
+                ans.append(predict.iloc[i][0])
+        return render_template("page.html", movie_names=ans, search_name=name)
 
 
 if __name__ == "__main__":
